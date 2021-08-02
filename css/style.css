@@ -65,12 +65,20 @@ li {
 /* Section Background */
 .home,
 .about,
-.services,
 .plans,
 .work,
 .contact {
-	height: 110vh;
+	height: 950px;
 	position: relative;
+}
+
+.services{
+	height: 1350px;
+	position: relative;
+}
+
+.plans{
+	height: 1100px;
 }
 
 .services,
@@ -361,6 +369,7 @@ li {
 	padding: 20px;
 	border-radius: 0;
 	border: 2px solid white;
+	height:360.8px;
 }
 
 .services .card:hover {
